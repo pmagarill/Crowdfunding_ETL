@@ -16,6 +16,7 @@ Extract and transform the crowdfunding.xlsx Excel data to create a category Data
 <li>A "category" column that contains only the category titles</li>
 Export the category DataFrame as category.csv and save it to your GitHub repository.
 
+
 Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
 <li>A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories</li>
 <li>A "subcategory" column that contains only the subcategory titles</li>
@@ -49,7 +50,7 @@ Choose one of the following two options for extracting and transforming the data
 
 ##### Option 2: Use regular expressions.
 
-If you chose Option 1, complete the following steps: <a name="Use-Python-dictionary-methods"></a>
+If you chose Option 1, complete the following steps:
 
 Import the contacts.xlsx file into a DataFrame.
 Iterate through the DataFrame, converting each row to a dictionary.
@@ -67,9 +68,7 @@ Create a new DataFrame with the extracted data.
 Convert the "contact_id" column to the integer type.
 Split each "name" column value into a first and a last name, and place each in a new column.
 Clean and then export the DataFrame as contacts.csv and save it to your GitHub repository.
-Check that your final DataFrame resembles the one in the following image:
 
-final contact DataFrame
 
 ### Create the Crowdfunding Database <a name="Create-the-Crowdfunding-Database"></a>
 Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site..
